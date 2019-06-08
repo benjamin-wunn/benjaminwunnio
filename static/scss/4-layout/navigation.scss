@@ -1,0 +1,24 @@
+.mainnavigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainnavigation-toggle {
+    display: none;
+}
+
+.mainnavigation-toggle-label {
+    color: green;
+}
+
+.mainnavigation-item {
+    .mainnavigation-item-link {
+        color: orange;
+    }
+
+    &.is--active {
+        .mainnavigation-item-link {
+            color: brown;
+        }
+    }
+}

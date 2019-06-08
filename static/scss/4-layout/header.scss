@@ -1,0 +1,20 @@
+.mainhead {
+    display: flex;
+    height: $xxlarge;
+    padding: $normal;
+    background-color: $brand-primary;
+    margin-left: $normal;
+    margin-right: $normal;
+    color: $body-bg;
+    position: sticky;
+    top: 0;
+    width: calc(100% - #{$normal + $normal});
+}
+
+.logo {
+    font-family: $font-stack-head;
+
+    .suename {
+        font-weight: lighter;
+    }
+}

@@ -1,0 +1,23 @@
+html {
+  font-size: $ExtraSmallRoot;
+
+  @include MediaSmall {
+    font-size: $SmallRoot;
+  }
+
+  @include MediaMedium {
+    font-size: $MediumRoot;
+  }
+
+  @include MediaLarge {
+    font-size: $LargeRoot;
+  }
+
+  @include MediaExtraLarge {
+    font-size: $ExtraLargeRoot;
+  }
+
+  @include MediaHuge {
+    font-size: $HugeRoot;
+  }
+}

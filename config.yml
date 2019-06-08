@@ -1,33 +1,14 @@
 site:
-  title: "Starter blog"
-  baseline: "Your blog's butler."
-  baseurl: "/"
-  canonicalurl: true
-  description: "A starter blog, powered by Cecil and Netlify CMS."
-  pagination:
-    max: 5
-    path: "page"
-  date:
-    format: "j F Y"
-    timezone: "Europe/Paris"
-  netlify:
-    cms:
-      path: "admin"
-      version: "latest"
-    identity:
-      version: "v1"
-  output:
-    formats:
-      netlify_redirects:
-        mediatype: "text/plain"
-        extension: ""
-  virtualpages:
-    admin:
-      layout: admin/index
-      output: html
-      title: "Content Manager (Netlify CMS)"
-    home:
-      redirect: /
-    _redirects:
-      output: netlify_redirects
-theme: "hyde"
+  title: "Benjamin Wunn"
+  baseline: "Your content driven static site generator."
+  #canonicalurl:
+  baseurl: http://bw.github.io
+  description: "Cecil is a CLI application that merges plain text files (written in Markdown), images and Twig templates to generate a static website."
+  language: de
+  languages:
+    de:
+      name: German
+      locale: de_DE
+  author:
+    name: Benjamin Wunn
+    url: http://bw.github.io
