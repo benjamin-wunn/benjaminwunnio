@@ -1,0 +1,8 @@
+[submodule "static/scss/2-vendors/bitters"]
+	path = static/scss/2-vendors/bitters
+[submodule "static/scss/2-vendors/bourbon"]
+	path = static/scss/2-vendors/bourbon
+[submodule "static/scss/2-vendors/neat"]
+	path = static/scss/2-vendors/neat
+[submodule "static/scss/2-vendors/normalize.css"]
+	path = static/scss/2-vendors/normalize.css
